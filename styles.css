@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem; /* Separación adicional por encima de la tabla */
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Estilos específicos para los formularios */
+form {
+    margin-bottom: 1rem; /* Separación adicional por debajo de cada formulario */
+}
+
+form label {
+    margin-right: 0.5rem; /* Separación entre etiquetas y campos de entrada */
+}
+
+form input, form button {
+    margin-bottom: 0.5rem; /* Separación entre campos de entrada y botón */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
